@@ -9,14 +9,17 @@
 Glyph recognition system built with C# in Unity. System is built off ScriptableObjects, making it easy to add new glyphs to recognise. Currently a very basic recognition system (and probably quite poor algorithms).
 
 ## Usage
+Download the latest release from [Releases](https://github.com/ZeppelinGames/Glyph-Recognition/releases) or clone/download the full project above.
+
 Adding new glyphs is simple. 
 * Go to Assets > Resources > Glyphs. 
 * Right-click inside the folder and select 'New Glyph.' 
 * Enter the points into the array (displayed underneath).
+* Set glyph detection percentage (0-200, combination of key point percentage and point match percentage)
 * Done :)
 
 ## License
-This project is licensed under the [MIT] License - see the LICENSE.md file for details
+This project is licensed under the [MIT] License - see the [LICENSE.md](https://github.com/ZeppelinGames/Glyph-Recognition/blob/main/LICENSE) file for details
 
 ## Check out my other shit
 <a href="http://www.twitter.com/Zeppelin_Games"><img src="https://image.flaticon.com/icons/png/512/124/124021.png" width="48"></a>
