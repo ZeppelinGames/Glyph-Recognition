@@ -12,8 +12,7 @@ Glyph recognition system built with C# in Unity. System is built off ScriptableO
 This project is licensed under the [MIT] License - see the LICENSE.md file for details
 
 ## Check out my other shit
-<img src="http://www.entypo.com/images/twitter-with-circle.svg" width="48">
-[Twitter](http://www.twitter.com/Zeppelin_Games)
+[<img src="http://www.entypo.com/images/twitter-with-circle.svg" width="48">[Twitter(http://www.twitter.com/Zeppelin_Games)]
 
 [Itch.io](https://zeppelin-games.itch.io/)
 
