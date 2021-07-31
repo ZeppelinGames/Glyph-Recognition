@@ -7,6 +7,16 @@
 
 ## Description
 Glyph recognition system built with C# in Unity. System is built off ScriptableObjects, making it easy to add new glyphs to recognise. Currently a very basic recognition system (and probably quite poor algorithms).
+![Uploading GlyphRecogDemo.gif…]()
+
+##Usage
+Adding new glyphs is simple. 
+Go to Assets > Resources > Glyphs. 
+Right-click inside the folder and select 'New Glyph.' 
+Enter the points into the array (displayed underneath).
+Done :)
+![Uploading NewGlyph.gif…]()
+
 
 ## License
 This project is licensed under the [MIT] License - see the LICENSE.md file for details
