@@ -12,11 +12,9 @@ Glyph recognition system built with C# in Unity. System is built off ScriptableO
 This project is licensed under the [MIT] License - see the LICENSE.md file for details
 
 ## Check out my other shit
-<a href="http://www.twitter.com/Zeppelin_Games"><img src="http://www.entypo.com/images/twitter-with-circle.svg" width="48"></a>
-
-<a href="https://zeppelin-games.itch.io/"><img src="https://assets.ifttt.com/images/channels/586796884/icons/large.png" width="48"></a>
-
-<a href="http://www.github.com/ZeppelinGames"><img src="http://www.entypo.com/images/github-with-circle.svg" width="48"></a>
+<a href="http://www.twitter.com/Zeppelin_Games"><img src="https://image.flaticon.com/icons/png/512/124/124021.png" width="48"></a>
+<a href="https://zeppelin-games.itch.io/"><img src="https://storage.webcatalog.app/catalog/itch-io/itch-io-icon-filled.png" width="48"></a>
+<a href="http://www.github.com/ZeppelinGames"><img src="https://icon-library.com/images/github-icon-png/github-icon-png-29.jpg" width="48"></a>
 
 [contributors-shield]: https://img.shields.io/github/contributors/ZeppelinGames/Glyph-Recognition.svg?style=for-the-badge
 [contributors-url]: https://github.com/ZeppelinGames/Glyph-Recognition/graphs/contributors
