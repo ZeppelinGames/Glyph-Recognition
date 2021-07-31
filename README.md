@@ -14,9 +14,7 @@ This project is licensed under the [MIT] License - see the LICENSE.md file for d
 ## Check out my other shit
 <a href="http://www.twitter.com/Zeppelin_Games"><img src="http://www.entypo.com/images/twitter-with-circle.svg" width="48"></a>
 
-[Itch.io](https://zeppelin-games.itch.io/)
-
-[Sketchfab](https://sketchfab.com/zeppelingames)
+<a href="https://zeppelin-games.itch.io/"><img src="https://assets.ifttt.com/images/channels/586796884/icons/large.png" width="48"></a>
 
 <a href="http://www.github.com/ZeppelinGames"><img src="http://www.entypo.com/images/github-with-circle.svg" width="48"></a>
 
