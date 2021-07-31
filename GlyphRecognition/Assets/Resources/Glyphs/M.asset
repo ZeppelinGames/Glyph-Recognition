@@ -10,12 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8c513af9b1e04f945b7619c5813802fb, type: 3}
-  m_Name: Square
+  m_Name: M
   m_EditorClassIdentifier: 
-  minMatchPercent: 130
+  minMatchPercent: 100
   points:
   - {x: 0, y: 0}
   - {x: 0, y: 1}
+  - {x: 0.5, y: 0.2}
   - {x: 1, y: 1}
   - {x: 1, y: 0}
-  - {x: 0, y: 0}

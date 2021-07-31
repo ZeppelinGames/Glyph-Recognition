@@ -1,6 +1,6 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using UnityEngine;
+using static ZeppelinGames.GlyphRecogniser;
 
 public class DrawGlyph : MonoBehaviour
 {
@@ -41,11 +41,42 @@ public class DrawGlyph : MonoBehaviour
 
         if (Input.GetMouseButtonUp(0))
         {
+            List<GlyphReturnData> allMatchData = new List<GlyphReturnData>();
             foreach (GlyphSO matchGlyph in glyphs)
             {
-                bool isGlyph = GlyphRecogniser.isGlyph(glyphPoints.ToArray(), matchGlyph);
-                if (isGlyph) { Debug.Log(matchGlyph.name + ": " + isGlyph); }
+                GlyphReturnData glyphData = MatchGlyph(glyphPoints.ToArray(), matchGlyph);
+                Debug.Log(glyphData.glyphName + ": " + glyphData.matchPercent + ", " + glyphData.keyPointsPercent);
+                /*   if(glyphData.keyPointsPercent >= matchGlyph.minKeyPointMatchPercentage && glyphData.matchPercent >= matchGlyph.minMatchPercentage)
+                   {
+                       allMatchData.Add(glyphData);
+                   }*/
+                if (glyphData.keyPointsPercent + glyphData.matchPercent > matchGlyph.minMatchPercent)
+                {
+                    allMatchData.Add(glyphData);
+                }
             }
+
+            GlyphReturnData bestMatch = null;
+            if (allMatchData.Count > 0)
+            {
+                float highestPercent = 0;
+                foreach (GlyphReturnData data in allMatchData)
+                {
+                    float avgPer = (data.keyPointsPercent + data.matchPercent) / 2;
+                    if (avgPer > highestPercent)
+                    {
+                        highestPercent = avgPer;
+                        bestMatch = data;
+                    }
+                }
+            }
+
+            if(bestMatch != null)
+            {
+                //Run commmands
+                Debug.Log(bestMatch.glyphName);
+            }
+
             glyphPoints.Clear();
         }
 

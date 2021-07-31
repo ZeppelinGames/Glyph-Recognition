@@ -10,10 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8c513af9b1e04f945b7619c5813802fb, type: 3}
-  m_Name: Triangle
+  m_Name: Forward
   m_EditorClassIdentifier: 
+  minMatchPercent: 90
   points:
   - {x: 0, y: 0}
+  - {x: 0.5, y: 0.75}
   - {x: 1, y: 0}
-  - {x: 0.5, y: 1}
-  - {x: 0, y: 0}
