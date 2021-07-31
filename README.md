@@ -13,8 +13,11 @@ This project is licensed under the [MIT] License - see the LICENSE.md file for d
 
 ## Check out my other shit
 [Twitter](http://www.twitter.com/Zeppelin_Games)
+
 [Itch.io](https://zeppelin-games.itch.io/)
+
 [Sketchfab](https://sketchfab.com/zeppelingames)
+
 [GitHub](http://www.github.com/ZeppelinGames)
 
 [contributors-shield]: https://img.shields.io/github/contributors/ZeppelinGames/Glyph-Recognition.svg?style=for-the-badge
