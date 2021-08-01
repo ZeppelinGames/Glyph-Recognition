@@ -18,6 +18,7 @@ Adding new glyphs is simple.
 * Enter the points into the array (displayed underneath).
 * Set glyph detection percentage (0-200, combination of key point percentage and point match percentage)
 * Done :)
+
 ![NewGlyph](https://user-images.githubusercontent.com/31507417/127762447-377bed47-161b-45e4-bbf4-a3f9a9ddfb23.gif)
 
 ## License
